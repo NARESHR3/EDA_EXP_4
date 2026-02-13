@@ -40,13 +40,54 @@ Identify patterns (e.g., more passengers in 3rd class, survival differences by g
 
 **Program**
 
-**Name :
+**Name :NARESH.R
 
-Reg No.:**
+Reg No.:212223240104
 
-**#Write your code here**
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 
+# Load dataset
+df = sns.load_dataset('titanic')
 
+print("First 5 Records:")
+display(df.head())
+df.shape
+df.isnull().sum()
+df.columns
+sns.countplot(x='sex', data=df)
+plt.title("Distribution of Gender")
+plt.pie(df['survived'].value_counts(),labels=['Survived', 'Not Survived'], 
+        autopct='%1.1f%%', startangle=90)
+plt.title('Survival Distribution')
+plt.axis('equal')
+plt.show()
+df['survived'].value_counts()
+df['survived'].mean()*100
+df['pclass'].value_counts()
+df['pclass'].value_counts().max()
+df['deck'].value_counts().max()
+df['embarked'].value_counts()
+df['age'].mean()
+sns.histplot(df['age'].dropna(), kde=True)
+plt.title("Distribution of Passenger Age")
+plt.xlabel("Age")
+plt.ylabel("Count")
+plt.show()
+df['age'].skew()
+sns.boxplot(x=df['fare'])
+plt.title("Boxplot of Fare")
+plt.show()
+sns.histplot(df['fare'].dropna(), kde=True)
+plt.title("Distribution of Passenger Age")
+plt.xlabel("Age")
+plt.ylabel("Count")
+plt.show()
+df['fare'].median()
+df['pclass'].value_counts()
+df['fare'].mean()
 
 **Output**
 
