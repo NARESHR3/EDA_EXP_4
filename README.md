@@ -118,7 +118,7 @@ df['fare'].mean()
 
 
 
-**Result**
+# **Result**
 From the univariate analysis:
 
 Majority of passengers were male and in 3rd class.
