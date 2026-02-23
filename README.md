@@ -94,25 +94,25 @@ df['fare'].mean()
 **Output**
 ```
 <img width="1603" height="350" alt="image" src="https://github.com/user-attachments/assets/e711a1e3-2c4a-4bf0-a5e2-ef5ff6f5d294" />
-```
+
 <img width="218" height="726" alt="image" src="https://github.com/user-attachments/assets/7d80c472-6925-41ee-b1d2-6232ff5dbdcb" />
-```
+
 <img width="648" height="514" alt="image" src="https://github.com/user-attachments/assets/9cadd25a-1ab0-4cc1-a320-429e9a85cf74" />
-```
+
 <img width="604" height="475" alt="image" src="https://github.com/user-attachments/assets/8e5e2245-eef3-4510-8201-94aa84d3a80c" />
-```
+
 <img width="237" height="190" alt="image" src="https://github.com/user-attachments/assets/b477740f-f29b-4f84-9f76-0874d3372cee" />
-```
+
 <img width="227" height="197" alt="image" src="https://github.com/user-attachments/assets/2251c478-b8b2-48f7-bd4d-2071cac5b3a8" />
-```
+
 <img width="481" height="653" alt="image" src="https://github.com/user-attachments/assets/4fe0f0c3-fccd-4238-a8b1-61a1b86cebc7" />
-```
+
 <img width="642" height="514" alt="image" src="https://github.com/user-attachments/assets/af0d88e7-9692-475e-97ff-a76a1799f485" />
-```
+
 <img width="589" height="510" alt="image" src="https://github.com/user-attachments/assets/49f74a15-0359-4d02-97cf-e0365216d682" />
-```
+
 <img width="647" height="513" alt="image" src="https://github.com/user-attachments/assets/32b865cf-06f0-4b3c-8d0a-83d880dc90a9" />
-```
+
 <img width="792" height="592" alt="image" src="https://github.com/user-attachments/assets/48b503c8-9e0b-4063-9d36-3d1f8224ed27" />
 ```
 
